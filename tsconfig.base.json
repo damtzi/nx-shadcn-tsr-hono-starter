@@ -19,6 +19,7 @@
             "@nx-shadcn-tsr-hono-starter/lib": ["packages/lib/src"],
             "@nx-shadcn-tsr-hono-starter/lib/*": ["packages/lib/src/*"],
             "@nx-shadcn-tsr-hono-starter/ui": ["packages/ui/src/components/ui"],
+            "@nx-shadcn-tsr-hono-starter/ui/hooks": ["packages/ui/src/hooks/*"],
             "@nx-shadcn-tsr-hono-starter/ui/*": [
                 "packages/ui/src/components/ui/*"
             ]
