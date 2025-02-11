@@ -15,10 +15,13 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
+            "@server/*": ["apps/server/src/*"],
             "@nx-shadcn-tsr-hono-starter/lib": ["packages/lib/src"],
             "@nx-shadcn-tsr-hono-starter/lib/*": ["packages/lib/src/*"],
             "@nx-shadcn-tsr-hono-starter/ui": ["packages/ui/src/components/ui"],
-            "@nx-shadcn-tsr-hono-starter/ui/*": ["packages/ui/src/*"]
+            "@nx-shadcn-tsr-hono-starter/ui/*": [
+                "packages/ui/src/components/ui/*"
+            ]
         }
     },
     "exclude": ["node_modules", "tmp"]

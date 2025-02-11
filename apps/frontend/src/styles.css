@@ -1,4 +1,2 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import '../../../packages/lib/src/styles/globals.css';
 /* You can add global styles to this file, and also import other style files */
